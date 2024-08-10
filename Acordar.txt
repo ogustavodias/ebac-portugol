@@ -1,0 +1,17 @@
+Portugol
+
+função acordar(Booleano aindaComSono) {
+  abrirOlho();
+  bocejar();
+
+  if(aindaComSono == verdadeiro) {
+    dormirNovamente();
+  } else {
+    levantar();
+  }
+
+}
+
+acordar(falso);
+
+
